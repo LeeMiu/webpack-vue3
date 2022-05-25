@@ -1,0 +1,49 @@
+{
+  "name": "webpack-vue3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve --open",
+    "dev": "cross_env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.18.0",
+    "@babel/preset-env": "7.18.0",
+    "@vue/compiler-sfc": "3.2.36",
+    "babel-loader": "8.2.5",
+    "copy-webpack-plugin": "11.0.0",
+    "cross-env": "7.0.3",
+    "css-loader": "6.7.1",
+    "html-webpack-plugin": "5.5.0",
+    "postcss": "8.4.14",
+    "postcss-loader": "7.0.0",
+    "postcss-preset-env": "7.6.0",
+    "sass": "1.52.1",
+    "sass-loader": "13.0.0",
+    "style-loader": "3.3.1",
+    "vue-loader": "17.0.0",
+    "webpack": "5.72.1",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.9.0"
+  },
+  "dependencies": {
+    "core-js": "3.22.7",
+    "mini-css-extract-plugin": "2.6.0",
+    "require-context": "^1.1.0",
+    "vue": "3.2.33",
+    "vue-router": "4.0.15",
+    "vuex": "4.0.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "Android >= 4.4",
+    "ios >=5"
+  ]
+}
